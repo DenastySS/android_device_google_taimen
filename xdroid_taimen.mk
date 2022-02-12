@@ -44,7 +44,7 @@ $(call inherit-product, vendor/google/taimen/taimen-vendor.mk)
 
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := google
-PRODUCT_NAME := aosp_taimen
+PRODUCT_NAME := xdroid_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_MODEL := Pixel 2 XL
 
