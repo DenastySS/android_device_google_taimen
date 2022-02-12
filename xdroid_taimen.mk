@@ -31,12 +31,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 
 # Inherit some common xdroidoss stuff.
-#
+$(call inherit-product, vendor/xdroid/config/common.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1440
 XDROID_MAINTAINER := DenastySS
 
