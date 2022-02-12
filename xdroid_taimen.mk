@@ -36,7 +36,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit product speciifc makefiles
 $(call inherit-product, device/google/taimen/device.mk)
