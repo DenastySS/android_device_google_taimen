@@ -18,6 +18,6 @@
     <string name="xd_chipset_type_summary">Qualcomm Snapdragon™ 835</string>
     <string name="xd_gpu_summary">Adreno 540</string>
     <string name="xd_camera_mp_summary">12.2MP Camera</string>
-    <string name="xd_screen_type_summary">OLED 2K 6.0 Inch Screen</string>
+    <string name="xd_screen_type_summary">P-OLED 2K 6.0 Inch Screen</string>
 
 </resources>
